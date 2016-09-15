@@ -14,7 +14,7 @@ public class football {
 		System.out.println("Enter total interceptions: ");
 		INT = in.nextDouble();
 
-		System.out.println("Enter total completitions: ");
+		System.out.println("Enter total completions: ");
 		comp = in.nextDouble();
 
 		System.out.println("Enter total passes attempted: ");
