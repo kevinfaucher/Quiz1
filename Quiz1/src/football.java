@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class football {
 	public static void main(String[] args) {
-		double TD, Yards, INT, comp, ATT, QB,a,b,c,d;
+		double TD, Yards, INT, comp, ATT, QB, a, b, c, d;
 		Scanner in = new Scanner(System.in);
 
 		System.out.println("Enter total touchdowns: ");
@@ -24,9 +24,10 @@ public class football {
 		b = ((Yards / ATT) - 3) * 0.25;
 		c = (TD / ATT) * 20;
 		d = 2.375 - ((INT / ATT) * 25);
-		
+
 		QB = ((a + b + c + d) / 6) * 100;
 		System.out.println(QB);
-
+		
+		in.close();
 	}
 }
